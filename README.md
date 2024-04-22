@@ -8,10 +8,16 @@ Feel free to edit and clone to repo if u need.
 $ git clonegithub.com/Mythiology/Telegram-bot-template.git
 ```
 
-## Downloading the neccessary modules
+## Setting up
+1) Download the necessary modules
 ```
 $ pip install requirements.txt
 ```
+
+2) Create your telegram bot and get the [API key](https://telegram.me/BotFather).
+3) Create a `.env` file in the same file directory as the python code.
+4) Write this inside the `.env` file: ```API_KEY = <whatever API key is in here>```
+5) Remember to save the file!
 
 ## Warnings!
 
